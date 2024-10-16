@@ -18,7 +18,7 @@ from langchain.prompts import PromptTemplate
 class RelatorioFinanceiroAnalyzer:
     def __init__(self):
         # Passe a chave da API diretamente aqui
-        self.llm = OpenAI(api_key="org-ycOurawIUBUyn1iUMfHp64Sd", model="text-davinci-003")
+        self.llm = OpenAI(api_key="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", model="text-davinci-003")
 
         self.prompt = PromptTemplate(
             input_variables=["documento"],
